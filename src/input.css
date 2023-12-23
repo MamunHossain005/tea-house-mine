@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .primary-btn {
+    @apply p-5 rounded-xl text-white text-xl font-bold bg-gradient-to-r from-[#FF8938] to-[#F00];
+  }
+
+  .primary-text {
+    @apply font-medium text-[#777];
+  }
+}
